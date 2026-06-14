@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>ELITECH — Технологии за гранью реальности</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="logo">ELITECH</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link nav__link--active">Главная</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="page.html" class="nav__link">Технологии</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle-wrapper">
+        <label for="theme-switch" class="theme-toggle" aria-label="Переключить тему">
+          <input type="checkbox" id="theme-switch" class="theme-toggle__input">
+          <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__bg-shapes">
+        <div class="shape shape--1"></div>
+        <div class="shape shape--2"></div>
+        <div class="shape shape--3"></div>
+      </div>
+      <div class="hero__content">
+        <h1 class="hero__title">ELITECH — Технологии за гранью реальности</h1>
+        <p class="hero__subtitle">Создаем будущее, которое вы заслуживаете. Инновации. Дизайн. Премиум.</p>
+        <div class="hero__actions">
+          <a href="about.html" class="btn btn--primary">Узнать больше</a>
+          <a href="page.html" class="btn btn--secondary">Начать проект</a>
+        </div>
+      </div>
+      <div class="hero__visual">
+        <img src="https://placehold.co/600x700/1a1a2e/00d4ff?text=ELITECH+Core" alt="Футуристичный процессор ELITECH" class="hero__image">
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="features__container">
+        <div class="feature-card">
+          <div class="feature-card__icon">⚡</div>
+          <h3 class="feature-card__title">Скорость света</h3>
+          <p class="feature-card__text">Наши решения обрабатывают данные с минимальной задержкой благодаря квантовой архитектуре.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🛡️</div>
+          <h3 class="feature-card__title">Абсолютная защита</h3>
+          <p class="feature-card__text">Шифрование военного уровня и биометрическая верификация для ваших данных.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-card__icon">🧬</div>
+          <h3 class="feature-card__title">Генная инженерия кода</h3>
+          <p class="feature-card__text">Самообучающиеся алгоритмы, адаптирующиеся под любую задачу в реальном времени.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2024 ELITECH. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Политика</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
