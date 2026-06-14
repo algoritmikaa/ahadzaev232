@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Технологии — ELITECH</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="logo">ELITECH</a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+          <li class="nav__item"><a href="page.html" class="nav__link nav__link--active">Технологии</a></li>
+        </ul>
+      </nav>
+      <div class="theme-toggle-wrapper">
+        <label for="theme-switch" class="theme-toggle" aria-label="Переключить тему">
+          <input type="checkbox" id="theme-switch" class="theme-toggle__input">
+          <span class="theme-toggle__icon theme-toggle__icon--sun">☀️</span>
+          <span class="theme-toggle__icon theme-toggle__icon--moon">🌙</span>
+        </label>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="products">
+      <div class="products__header">
+        <h1 class="products__title">Наши разработки</h1>
+        <p class="products__subtitle">Передовые решения для нового цифрового века</p>
+      </div>
+      <div class="products__grid">
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLE0ThcZoIO2TgBG0VCPZNWoE0D_I-Vn8Jaw&s" alt="Квантовый процессор">
+          </div>
+          <div class="product-card__content">
+            <h3>Квантовый процессор</h3>
+            <p>Вычисления за пределами возможностей классических систем.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://elitech.ru/local/templates/elc/img/brands/brand2/intro-1.jpg" alt="Нейроинтерфейс">
+          </div>
+          <div class="product-card__content">
+            <h3>Нейроинтерфейс</h3>
+            <p>Прямое взаимодействие мозга и машины без задержек.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQT0knMLd7hGf7pDd5tB_kQGxQOHJvJMCmxaw&s" alt="ИИ Платформа">
+          </div>
+          <div class="product-card__content">
+            <h3>ИИ Платформа</h3>
+            <p>Самообучающиеся алгоритмы для бизнеса и науки.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRZIz7SwHLzD-rZZ4r4UY4G9N-rQ1CltlhQQ&s" alt="Кибербезопасность">
+          </div>
+          <div class="product-card__content">
+            <h3>Киберзащита</h3>
+            <p>Протоколы безопасности нового поколения с нулевым днем.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH53pB2h7IdrxUdil5gGCwCXBWR87iTrJq-A&s" alt="Облачные вычисления">
+          </div>
+          <div class="product-card__content">
+            <h3>Облачная матрица</h3>
+            <p>Распределенные вычисления с гарантированной анонимностью.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-card__image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoZjp2VXYscFk4n4weGLDifKXlHAYijyRrAg&s" alt="Робототехника">
+          </div>
+          <div class="product-card__content">
+            <h3>Робототехника</h3>
+            <p>Автономные системы для промышленности и дома.</p>
+            <a href="#" class="btn btn--outline">Подробнее</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <p class="footer__copy">© 2024 ELITECH. All rights reserved.</p>
+      <div class="footer__links">
+        <a href="#" class="footer__link">Политика</a>
+        <a href="#" class="footer__link">Контакты</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
